@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_big">24dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+
+    <dimen name="margin_splash_bg">64dp</dimen>
+
+    <dimen name="list_item_margin">@dimen/margin_normal</dimen>
+
+    <dimen name="chat_fab_margin">16dp</dimen>
+
+    <dimen name="attach_image_width">200dp</dimen>
+    <dimen name="attach_image_height">300dp</dimen>
+
+    <dimen name="grid_expected_size">120dp</dimen>
+
+    <dimen name="message_date_size">13sp</dimen>
+</resources>

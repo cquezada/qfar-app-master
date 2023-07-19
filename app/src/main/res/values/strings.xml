@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Q-far</string>
+
+    <!--Configs    -->
+    <string name="sender_id"></string>
+
+    <!--LoginActivity-->
+    <string name="user_login">Login as</string>
+    <string name="user_logged_in">Loggin in as %s …</string>
+    <string name="user">User %1$s</string>
+    <string name="login_chat_login_error">Login Chat error. Please relogin. Error %s</string>
+    <string name="loading_users_error">Loading users error. Error %s</string>
+    <string name="loading_users_empty">There are no such users in the application.</string>
+
+    <!--DialogsActivity-->
+    <string name="yesterday">Ayer</string>
+
+    <!--CreateDialogActivity-->
+    <string name="last_activity">Last activity:</string>
+    <string name="new_chat">New Chat</string>
+
+    <!--ChatDialogDetailsActivity-->
+    <string name="occupants">Occupants</string>
+    <string name="you">You</string>
+    <string name="creator">Creator</string>
+    <string name="admin">Admin</string>
+    <string name="view_details">View Details</string>
+    <string name="edit_group_description">Edit Group Description</string>
+    <string name="group_description">Group Description</string>
+    <string name="put_there_some_information_about_group">Put there some additional information about group</string>
+    <string name="add_to_admins">Add to admins</string>
+    <string name="remove_from_admins">Remove from admins</string>
+    <string name="remove_from_occupants">Remove from occupants</string>
+    <string name="edit_group_name">Edit Group Name</string>
+    <string name="group_name">Group Name</string>
+    <string name="put_name_for_group">Put name for group</string>
+    <string name="change_group_avatar">Change dialog avatar</string>
+    <string name="change_group_name">Change group name</string>
+    <string name="change_group_description">Change group description</string>
+    <string name="add_occupants">Add occupants</string>
+    <string name="remove_occupants">Remove occupants</string>
+
+    <!--SelectUsersActivity-->
+    <string name="not_user_to_select">Not users to select</string>
+
+    <!--Action bar-->
+    <string name="title_login_activity">Login</string>
+    <string name="title_current_user">Logged in as %1$s</string>
+    <string name="title_select_users_activity">Select user(s)</string>
+    <string name="action_start_logout">Logout</string>
+    <string name="action_create">Create</string>
+    <string name="action_done">Done</string>
+    <string name="action_close">Close</string>
+    <string name="action_toggle_speaker">Toggle speaker</string>
+    <string name="action_toggle_mute">Toggle mute</string>
+
+    <!--Menu-->
+    <string name="menu_chat_dialog_logout">Logout</string>
+    <string name="menu_chat_message_video">Video call</string>
+    <string name="menu_chat_message_audio">Audio call</string>
+
+    <!--ChatDialogs-->
+    <string name="chat_login">Login…</string>
+    <string name="chat_list_empty">Cargando CHAT ...</string>
+    <string name="load_avatar_error">Loading avatar error %s</string>
+    <string name="load_avatar_success">Loading avatar success</string>
+    <string name="group_name_error">Nombre no puede ser vacío</string>
+
+    <!--ChatMessages-->
+    <string name="chat_text_hint">Mensaje</string>
+    <string name="chat_typing">%s esta escribiendo…</string>
+    <string name="message_attachment">Adjunto</string>
+    <string name="loading_attachment_error">Cargando Adjunto error %s</string>
+    <string name="sending_message_error">Enviando mensaje de error %s</string>
+    <string name="fbd_scroll_counter_label">%s Nuevo</string>
+
+    <!--Settings-->
+    <string name="settings_label">Ajustes</string>
+    <string name="edit_username">Editar nombre de usuario</string>
+    <string name="user_name_hint">Nombre de usuario</string>
+    <string name="username_description">Ingresar nombre de usuario</string>
+    <string name="username_can_not_be_empty">Nombre de usuario no puede ser vacío</string>
+
+    <!--AttachmentPreview-->
+    <string name="attachment_preview_label">Attachment Preview</string>
+
+    <!--ImagePreview-->
+    <string name="image_preview_label">Imagen Preview</string>
+    <string name="transition_name_image_view">app:navigation:img_screen</string>
+    <string name="transition_name_toolbar">app:navigation:toolbar</string>
+    <string name="transition_name_bottom_bar">app:navigation:bottom_bar</string>
+
+    <!--OccupantPreview-->
+    <string name="occupant_preview_label">Occupant Preview</string>
+
+    <!--CreateChatDialogDetail-->
+    <string name="create_chat_detail_preview_label">Group Details</string>
+
+    <!--Notifications-->
+    <string name="you_have_got_new_incoming_call_open_app_to_manage_it">You have got new Incoming Call. Open app to manage it</string>
+    <string name="calls_channel_name">Calls</string>
+    <string name="calls_channel_description">Notifications about incoming calls</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="chats_channel_name">Chats</string>
+    <string name="chats_channel_description">Notifications about new messages in chats</string>
+    <string name="new_message">New message</string>
+    <string name="enter_your_reply_here">Enter your reply here</string>
+    <string name="reply">Reply</string>
+    <string name="you_format">You: %s</string>
+
+    <!--CallActivity-->
+    <string name="call_status_connect">Conectando…</string>
+    <string name="call_status_connected">Conectado</string>
+    <string name="call_status_disconnected">Desconectado</string>
+    <string name="call_status_closed">Cerrado</string>
+    <string name="call_status_hang_up">Hung up</string>
+    <string name="camera_switch_error">Failed to switch camera"</string>
+
+    <string name="incoming_audio_call_title">Video llamada entrante</string>
+    <string name="incoming_video_call_title">Video llamada entrante</string>
+    <string name="incoming_audio_call_opponents">on call:</string>
+    <string name="outgoing_call_ringing">Ringing</string>
+
+    <string name="title_incoming_call">LLamada entrante</string>
+    <string name="title_video_call">Video llamada</string>
+    <string name="title_audio_call">Audio llamada</string>
+
+    <string name="status_connected">Conectado</string>
+    <string name="status_closed">Cerrado</string>
+    <string name="status_disconnected">Desconectado</string>
+    <string name="connection_is_disconnected">la conexión esta desconectada</string>
+    <string name="connection_is_reconnected">la conexión esta reconectada</string>
+    <string name="snackbar_dismiss">Perdida</string>
+
+    <!-- Errors -->
+    <string name="error_credentials_empty">The App class should contain ConnectyCube credentials. Register new account and application at https://admin.connectycube.com
+        then put Application credentials from Overview page + Account key from https://admin.connectycube.com/account/settings</string>
+    <string name="error_users_empty">The user_config.json file should contain at least 2 and max 5 users with format [\"login\":{\"password\":userId}]. Please go to https://admin.connectycube.com and create users in \'Users\' module.</string>
+    <string name="select_users_choose_users">Please, choose at least one participant</string>
+    <string name="error_while_loading_users">Error while loading users</string>
+    <string name="something_went_wrong_try_again_later">Something went wrong, try again later</string>
+    <string name="group_description_can_not_be_empty">Group description can not be empty</string>
+    <string name="group_name_can_not_be_empty">Group name can not be empty</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="chat_connection_problem">It was detected connection problems. Please check your internet connection and try again</string>
+    <string name="limit_users_to_selection">Max %s users possible to selection</string>
+    <string name="error_sending_message">Error sending message</string>
+    <string name="denied_permission">You can\'t go on without an access to %s</string>
+    <string name="login_chat_error_format">Login chat error. Error  %s</string>
+    <string name="read_error">Read error</string>
+
+    <string name="today">Hoy</string>
+    <string name="delete">Delete</string>
+    <string name="id_format">id: %s</string>
+    <string name="title_select_call_members">Select call members</string>
+    <string name="parentheses_format">(%s)</string>
+
+    <!--fix for Matisse lib-->
+    <plurals name="error_over_count">
+        <item quantity="one">You can only select one media file</item>
+        <item quantity="many">You can only select up to %1$d media files</item>
+    </plurals>
+
+</resources>
